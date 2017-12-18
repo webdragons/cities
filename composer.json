@@ -1,0 +1,29 @@
+{
+  "name": "bulldozer/cities",
+  "description": "Cities module",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "lan143",
+      "email": "lan143@lan143.ru"
+    }
+  ],
+  "require": {
+    "bulldozer/bulldozer": "*",
+    "bulldozer/users": "*",
+    "yii2mod/yii2-enum": "*",
+    "yiisoft/yii2-bootstrap": "~2.0.0",
+    "yiisoft/yii2-swiftmailer": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "bulldozer\\cities\\": "src"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
